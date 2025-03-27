@@ -5,12 +5,10 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Login/Signup Form</title>
     <link rel="stylesheet" href="login.css" />
-
     <link
       rel="shortcut icon"
       href="https://res.cloudinary.com/abdel-rahman-ali/image/upload/v1535988515/rosa-favicon.png"
     />
-
     <link
       href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
       rel="stylesheet"
@@ -19,44 +17,38 @@
   <body>
     <div class="container">
       <div class="form-box login">
-        <form action="#">
+        <form id="loginForm" action="#">
           <h1>Login</h1>
           <div class="input-box">
-            <input type="text" placeholder="Username" required />
+            <input
+              type="text"
+              id="loginUsername"
+              placeholder="Username"
+              required
+            />
             <i class="bx bxs-user"></i>
           </div>
           <div class="input-box">
-            <input type="password" placeholder="Password" required />
+            <input
+              type="password"
+              id="loginPassword"
+              placeholder="Password"
+              required
+            />
             <i class="bx bxs-lock-alt"></i>
           </div>
           <div class="forgot-link">
             <a href="#">Forgot Password?</a>
           </div>
-          <button type="submit" class="btn" a href="index.html">Login</button>
+          <button type="submit" class="btn">Login</button>
           <p>or login with social platforms</p>
           <div class="social-icons">
-            <a
-              href="https://r.search.yahoo.com/_ylt=AwrKEj4_ouBn1pwNnBOzRwx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1743984447/RO=10/RU=https%3a%2f%2faccounts.google.com%2fLogin/RK=2/RS=l81zbb3Z1OJT_WWpWHeect.l4Lc-"
-              target="_blank"
-              rel="noopener noreffrer"
-              ><i class="bx bxl-google"></i
-            ></a>
-            <a
-              href="https://r.search.yahoo.com/_ylt=Awr1WTifouBnJQIQ9KuzRwx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1743984544/RO=10/RU=https%3a%2f%2fwww.facebook.com%2flogin.php%2f/RK=2/RS=XgBlkO3_fDb6kjj7_2XTKObnxlA-"
-              target="_blank"
-              rel="noopener noreferrer"
+            <a href="#" class="google-login"><i class="bx bxl-google"></i></a>
+            <a href="#" class="facebook-login"
               ><i class="bx bxl-facebook"></i
             ></a>
-            <a
-              href="https://r.search.yahoo.com/_ylt=Awr1SVnWouBn0KkO5AezRwx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1743984599/RO=10/RU=https%3a%2f%2fgithub.com%2flogin/RK=2/RS=bsLAN1xjJGzP8LUQvo7FIxYKxTg-"
-              target="_blank"
-              rel="noopenner noreferrer"
-              ><i class="bx bxl-github"></i
-            ></a>
-            <a
-              href="https://r.search.yahoo.com/_ylt=Awr1VSgyo.Bn7vsN7FmzRwx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1743984690/RO=10/RU=https%3a%2f%2fwww.linkedin.com%2flogin/RK=2/RS=.nSdhRgsngtj82kZ_v5HPE6.GQM-"
-              target="_blank"
-              rel="noopenner noreferrer"
+            <a href="#" class="github-login"><i class="bx bxl-github"></i></a>
+            <a href="#" class="linkedin-login"
               ><i class="bx bxl-linkedin"></i
             ></a>
           </div>
@@ -64,45 +56,48 @@
       </div>
 
       <div class="form-box register">
-        <form action="#">
+        <form id="registerForm" action="#">
           <h1>Registration</h1>
           <div class="input-box">
-            <input type="text" placeholder="Username" required />
+            <input
+              type="text"
+              id="registerUsername"
+              placeholder="Username"
+              required
+            />
             <i class="bx bxs-user"></i>
           </div>
           <div class="input-box">
-            <input type="email" placeholder="Email" required />
+            <input
+              type="email"
+              id="registerEmail"
+              placeholder="Email"
+              required
+            />
             <i class="bx bxs-envelope"></i>
           </div>
           <div class="input-box">
-            <input type="password" placeholder="Password" required />
+            <input
+              type="password"
+              id="registerPassword"
+              placeholder="Password"
+              required
+            />
             <i class="bx bxs-lock-alt"></i>
           </div>
           <button type="submit" class="btn">Register</button>
           <p>or register with social platforms</p>
           <div class="social-icons">
-            <a
-              href="https://r.search.yahoo.com/_ylt=AwrKEj4_ouBn1pwNnBOzRwx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1743984447/RO=10/RU=https%3a%2f%2faccounts.google.com%2fLogin/RK=2/RS=l81zbb3Z1OJT_WWpWHeect.l4Lc-"
-              target="_blank"
-              rel="noopener noreffrer"
+            <a href="#" class="google-register"
               ><i class="bx bxl-google"></i
             ></a>
-            <a
-              href="https://r.search.yahoo.com/_ylt=Awr1WTifouBnJQIQ9KuzRwx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1743984544/RO=10/RU=https%3a%2f%2fwww.facebook.com%2flogin.php%2f/RK=2/RS=XgBlkO3_fDb6kjj7_2XTKObnxlA-"
-              target="_blank"
-              rel="noopener noreffrer"
+            <a href="#" class="facebook-register"
               ><i class="bx bxl-facebook"></i
             ></a>
-            <a
-              href="https://r.search.yahoo.com/_ylt=Awr1SVnWouBn0KkO5AezRwx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1743984599/RO=10/RU=https%3a%2f%2fgithub.com%2flogin/RK=2/RS=bsLAN1xjJGzP8LUQvo7FIxYKxTg-"
-              target="_blank"
-              rel="noopener noreffrer"
+            <a href="#" class="github-register"
               ><i class="bx bxl-github"></i
             ></a>
-            <a
-              href="https://r.search.yahoo.com/_ylt=Awr1VSgyo.Bn7vsN7FmzRwx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1743984690/RO=10/RU=https%3a%2f%2fwww.linkedin.com%2flogin/RK=2/RS=.nSdhRgsngtj82kZ_v5HPE6.GQM-"
-              target="_blank"
-              rel="noopener noreffrer"
+            <a href="#" class="linkedin-register"
               ><i class="bx bxl-linkedin"></i
             ></a>
           </div>
@@ -123,6 +118,6 @@
         </div>
       </div>
     </div>
+    <script src="main.js"></script>
   </body>
-  <script src="main.js"></script>
 </html>
