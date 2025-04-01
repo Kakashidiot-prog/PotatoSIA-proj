@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Login/Signup Form</title>
+    <link rel="stylesheet" href="login.css" />
+    <link
+      rel="shortcut icon"
+      href="https://res.cloudinary.com/abdel-rahman-ali/image/upload/v1535988515/rosa-favicon.png"
+    />
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="nav-header">
+      <a href="index.html" class="back-home">
+        <i class="bx bx-arrow-back"></i> Back to ROSA
+      </a>
+    </div>
+
+    <div class="container">
+      <div class="form-box login">
+        <form id="loginForm" action="#">
+          <h1>Login</h1>
+          <div class="input-box">
+            <input
+              type="text"
+              id="loginUsername"
+              placeholder="Username"
+              required
+            />
+            <i class="bx bxs-user"></i>
+          </div>
+          <div class="input-box">
+            <input
+              type="password"
+              id="loginPassword"
+              placeholder="Password"
+              required
+            />
+            <i class="bx bxs-lock-alt"></i>
+          </div>
+          <div class="forgot-link">
+            <a href="#">Forgot Password?</a>
+          </div>
+          <button type="submit" class="btn">Login</button>
+          <p>or login with social platforms</p>
+          <div class="social-icons">
+            <a
+              href="https://r.search.yahoo.com/_ylt=AwrKDnoCMutn_gEAtA.zRwx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1744676611/RO=10/RU=https%3a%2f%2faccounts.google.com%2fLogin/RK=2/RS=0pNu.MSGkoP12tydLx8mk1Hj7dI-"
+              target="Blank"
+              class="google-login"
+              ><i class="bx bxl-google"></i
+            ></a>
+            <a
+              href="https://r.search.yahoo.com/_ylt=Awr1TkQ0MutnGwIAfEKzRwx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1744676660/RO=10/RU=https%3a%2f%2fwww.facebook.com%2flogin.php%2f/RK=2/RS=67ilGcTkwZBX5wx409bDGVATY5I-"
+              target="Blank"
+              class="facebook-login"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a
+              href="https://r.search.yahoo.com/_ylt=Awr1RZZIMutnSgIApGWzRwx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1744676680/RO=10/RU=https%3a%2f%2fgithub.com%2flogin/RK=2/RS=87YBWDjn9IXKJtgk1K.YThR_fns-"
+              target="Blank"
+              class="github-login"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a
+              href="https://r.search.yahoo.com/_ylt=Awr1RZZcMutnZAIAVJyzRwx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1744676701/RO=10/RU=https%3a%2f%2fwww.linkedin.com%2flogin/RK=2/RS=qYTjW2ezVrQ3KurEMPNOaNiOVG0-"
+              target="Blank"
+              class="linkedin-login"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+          </div>
+        </form>
+      </div>
+
+      <div class="form-box register">
+        <form id="registerForm" action="#">
+          <h1>Registration</h1>
+          <div class="input-box">
+            <input
+              type="text"
+              id="registerUsername"
+              placeholder="Username"
+              required
+            />
+            <i class="bx bxs-user"></i>
+          </div>
+          <div class="input-box">
+            <input
+              type="email"
+              id="registerEmail"
+              placeholder="Email"
+              required
+            />
+            <i class="bx bxs-envelope"></i>
+          </div>
+          <div class="input-box">
+            <input
+              type="password"
+              id="registerPassword"
+              placeholder="Password"
+              required
+            />
+            <i class="bx bxs-lock-alt"></i>
+          </div>
+          <button type="submit" class="btn">Register</button>
+          <p>or register with social platforms</p>
+          <div class="social-icons">
+            <a
+              href="https://r.search.yahoo.com/_ylt=AwrKDnoCMutn_gEAtA.zRwx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1744676611/RO=10/RU=https%3a%2f%2faccounts.google.com%2fLogin/RK=2/RS=0pNu.MSGkoP12tydLx8mk1Hj7dI-"
+              target="Blank"
+              class="google-register"
+              ><i class="bx bxl-google"></i
+            ></a>
+            <a
+              href="https://r.search.yahoo.com/_ylt=Awr1TkQ0MutnGwIAfEKzRwx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1744676660/RO=10/RU=https%3a%2f%2fwww.facebook.com%2flogin.php%2f/RK=2/RS=67ilGcTkwZBX5wx409bDGVATY5I-"
+              target="Blank"
+              class="facebook-register"
+              ><i class="bx bxl-facebook"></i
+            ></a>
+            <a
+              href="https://r.search.yahoo.com/_ylt=Awr1RZZIMutnSgIApGWzRwx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1744676680/RO=10/RU=https%3a%2f%2fgithub.com%2flogin/RK=2/RS=87YBWDjn9IXKJtgk1K.YThR_fns-"
+              target="Blank"
+              class="github-register"
+              ><i class="bx bxl-github"></i
+            ></a>
+            <a
+              href="https://r.search.yahoo.com/_ylt=Awr1RZZcMutnZAIAVJyzRwx.;_ylu=Y29sbwNzZzMEcG9zAzEEdnRpZAMEc2VjA3Ny/RV=2/RE=1744676701/RO=10/RU=https%3a%2f%2fwww.linkedin.com%2flogin/RK=2/RS=qYTjW2ezVrQ3KurEMPNOaNiOVG0-"
+              target="Blank"
+              class="linkedin-register"
+              ><i class="bx bxl-linkedin"></i
+            ></a>
+          </div>
+        </form>
+      </div>
+
+      <div class="toggle-box">
+        <div class="toggle-panel toggle-left">
+          <h1>Hello, Welcome!</h1>
+          <p>Don't have an account?</p>
+          <button class="btn register-btn">Register</button>
+        </div>
+
+        <div class="toggle-panel toggle-right">
+          <h1>Welcome Back!</h1>
+          <p>Already have an account?</p>
+          <button class="btn login-btn">Login</button>
+        </div>
+      </div>
+    </div>
+    <script src="login.js"></script>
+  </body>
+</html>
